@@ -1,0 +1,7 @@
+streamlit
+pdfplumber
+pymupdf
+pandas
+python-dotenv
+groq
+openpyxl

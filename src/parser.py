@@ -1,11 +1,15 @@
 import os
 import json
+import streamlit as st
+
 from groq import Groq
 from typing import List, Dict
 from dotenv import load_dotenv
 
 load_dotenv()
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+api_key = os.getenv("GROQ_API_KEY") or st.secrets["GROQ_API_KEY"]
+client = Groq(api_key=api_key)
+
 
 
 def clean_llm_output(content: str) -> str:

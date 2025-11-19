@@ -37,19 +37,20 @@ This project takes an **unstructured narrative-style PDF** and transforms it int
 | Deployment | Streamlit Cloud |
 
 ---
+## steps to run the project
 
 1. Clone the repo
-git clone https://github.com/Ciberchamp/AI_pdf_structurer.git
-cd AI_pdf_structurer
+- git clone https://github.com/Ciberchamp/AI_pdf_structurer.git
+- cd AI_pdf_structurer
 
 2. Create .env
-GROQ_API_KEY=your_api_key_here
+- GROQ_API_KEY=your_api_key_here
 
 3. Install dependencies
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 4. Run the Streamlit app
-streamlit run src/app.py
+- streamlit run src/app.py
 
 
 
